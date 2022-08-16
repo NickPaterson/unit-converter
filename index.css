@@ -26,12 +26,15 @@ html, body, main, section, h1, h2, p  {
     font-family: inter;
     box-sizing: border-box;
 }
-
+.content-container {
+    min-height: calc(100vh - 321px);
+}
 main {
     background: linear-gradient(170deg, var(--clr-grad-top) 0%, var(--clr-grad-bottom) 100%);
     color: var(--clr-primary);
     width: 100%;
     height: 260px;
+
 }
 main h1 {
     padding: 2px 0 5px 0;
